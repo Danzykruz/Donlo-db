@@ -1,0 +1,7 @@
+app:
+  datasource:
+    jdbc-url: "jdbc:postgresql://localhost:5454/donlodb"
+    username: postgres
+    password: mypassword
+    maximum-pool-size: 30
+    driver-class-name: org.postgresql.Driver
